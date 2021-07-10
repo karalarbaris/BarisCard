@@ -11,6 +11,8 @@
 		1570CAEB2699F559005015CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1570CAEA2699F559005015CF /* ContentView.swift */; };
 		1570CAED2699F55D005015CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1570CAEC2699F55D005015CF /* Assets.xcassets */; };
 		1570CAF02699F55D005015CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1570CAEF2699F55D005015CF /* Preview Assets.xcassets */; };
+		1570CAF92699F971005015CF /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1570CAF82699F971005015CF /* Pacifico-Regular.ttf */; };
+		1570CAFB269A069B005015CF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1570CAFA269A069B005015CF /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1570CAEC2699F55D005015CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1570CAEF2699F55D005015CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1570CAF12699F55D005015CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1570CAF82699F971005015CF /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		1570CAFA269A069B005015CF /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		1570CAE72699F559005015CF /* BarisCard */ = {
 			isa = PBXGroup;
 			children = (
+				1570CAF72699F95E005015CF /* Fonts */,
 				1570CAE82699F559005015CF /* BarisCardApp.swift */,
 				1570CAEA2699F559005015CF /* ContentView.swift */,
+				1570CAFA269A069B005015CF /* InfoView.swift */,
 				1570CAEC2699F55D005015CF /* Assets.xcassets */,
 				1570CAF12699F55D005015CF /* Info.plist */,
 				1570CAEE2699F55D005015CF /* Preview Content */,
@@ -67,6 +73,14 @@
 				1570CAEF2699F55D005015CF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1570CAF72699F95E005015CF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1570CAF82699F971005015CF /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1570CAF92699F971005015CF /* Pacifico-Regular.ttf in Resources */,
 				1570CAF02699F55D005015CF /* Preview Assets.xcassets in Resources */,
 				1570CAED2699F55D005015CF /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1570CAEB2699F559005015CF /* ContentView.swift in Sources */,
+				1570CAFB269A069B005015CF /* InfoView.swift in Sources */,
 				1570CAE92699F559005015CF /* BarisCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
