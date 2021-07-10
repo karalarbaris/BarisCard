@@ -23,6 +23,8 @@ struct InfoView: View {
                 
                 Text(text)
                     .bold()
+                    .foregroundColor(.gray)
+
             }
             
         }
